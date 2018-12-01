@@ -100,6 +100,9 @@ set hlsearch
 " Makes search act like search in modern browsers
 set incsearch 
 
+" Disable search hightlight
+nnoremap <esc><esc> :silent! nohls<cr>
+
 " Don't redraw while executing macros (good performance config)
 set lazyredraw 
 
